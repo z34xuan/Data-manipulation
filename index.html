@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>列表生成</title>
+    <link rel="stylesheet" href="stylesheets/common.css">
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+    <div class="ctrlBtnGroup">
+        <button id="loadData" type="button">加载数据</button>
+        <button id="delCkdData" type="button">删除选中</button>
+    </div>
+    <table id="dataTable">
+        <thead>
+            <th class="ckb-all">
+                <input type="checkbox" name="ckData" disabled>
+            </th>
+            <th>货号<i class="arrow normal"></i></th>
+            <th>名称</th>
+            <th>生产日期<i class="arrow normal"></i></th>
+            <th>进货日期<i class="arrow normal"></i></th>
+            <th>保质期</th>
+            <th>售价<i class="arrow normal"></i></th>
+            <th>操作</th>
+        </thead>
+        <tbody>
+            <!-- 动态的AJAX数据加载 -->
+        </tbody>
+    </table>
+<script type="text/javascript" src="javascripts/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/index.js"></script>
+</body>
+</html>
